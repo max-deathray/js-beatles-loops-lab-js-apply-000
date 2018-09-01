@@ -29,9 +29,9 @@ function iLoveTheBeatles(num) {
   const finalArray = [];
   let counter = num;
   do {
-    finalArray.push(`${I love the Beatles!}`)
+    finalArray.push(`I love the Beatles!`);
     counter--;
   } while (counter > 0)
-  
+  return finalArray;
 }
 

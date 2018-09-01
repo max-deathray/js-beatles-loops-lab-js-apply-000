@@ -4,7 +4,7 @@ function theBeatlesPlay(musArray, insArray) {
   for (let i = 0; i < musArray.length; i++) {
     const currentBeatle = musArray[i];
     const currentInstrument = insArray[i];
-    let string = `${currentBeatle} plays the ${currentInstrument}`
+    let string = `${currentBeatle} plays ${currentInstrument}`
     finalArray.push(string);
   }
   

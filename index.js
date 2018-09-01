@@ -30,8 +30,8 @@ function iLoveTheBeatles(num) {
   let counter = num;
   do {
     finalArray.push(`I love the Beatles!`);
-    counter--;
-  } while (counter >= 0)
+    counter++;
+  } while (counter < 15)
   return finalArray;
 }
 

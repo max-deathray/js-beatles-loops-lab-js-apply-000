@@ -28,7 +28,9 @@ function johnLennonFacts (factArray) {
 function iLoveTheBeatles(num) {
   const finalArray = [];
   
-  do 
+  do {
+    
+  } while ()
   
 }
 

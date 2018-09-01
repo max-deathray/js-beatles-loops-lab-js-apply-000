@@ -10,3 +10,25 @@ function theBeatlesPlay(musArray, insArray) {
   
   return finalArray;
 }
+
+
+function johnLennonFacts (factArray) {
+  const finalArray = [];
+  let index = 0;
+  while (index < factArray.length) {
+    const currentString = factArray[i];
+    finalArray.push(`${currentString}!!!`)
+    index++;
+  }
+  
+  return finalArray;
+}
+
+
+function iLoveTheBeatles(num) {
+  const finalArray = [];
+  
+  do 
+  
+}
+

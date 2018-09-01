@@ -16,7 +16,7 @@ function johnLennonFacts (factArray) {
   const finalArray = [];
   let index = 0;
   while (index < factArray.length) {
-    const currentString = factArray[i];
+    const currentString = factArray[index];
     finalArray.push(`${currentString}!!!`)
     index++;
   }

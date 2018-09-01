@@ -3,8 +3,8 @@ function theBeatlesPlay(musArray, insArray) {
   
   for (let i = 0; i < musArray.length; i++) {
     const currentBeatle = musArray[i];
-    let string = '';
-    string+currentBeatle + " plays " + insArray[i];
+    const currentInstrument = insArray[i];
+    let string = `${currentBeatle} plays the ${currentInstrument}`
     finalArray.push(string);
   }
   

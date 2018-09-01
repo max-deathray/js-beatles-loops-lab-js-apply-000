@@ -27,10 +27,11 @@ function johnLennonFacts (factArray) {
 
 function iLoveTheBeatles(num) {
   const finalArray = [];
-  
+  let counter = num;
   do {
-    
-  } while ()
+    finalArray.push(`${I love the Beatles!}`)
+    counter--;
+  } while (counter > 0)
   
 }
 
